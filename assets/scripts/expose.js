@@ -9,7 +9,6 @@ function init() {
   const playButton = document.querySelector('button');
   const jsConfetti = new JSConfetti();
 
-  // Mapping horn types to their respective images and audio files
   const hornData = {
     'air-horn': {
       img: 'assets/images/air-horn.svg',
